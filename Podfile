@@ -4,7 +4,7 @@ platform :ios, '10.0'                # 指定平台和最低版本
 inhibit_all_warnings!               # 无视所有警告
 use_frameworks!                     # 使用framework代替静态库
 
-pod 'Moya'
+pod 'Moya/ReactiveSwift'
 
 target 'MoyaDemo' do					# target 对应Xcode中的target
 

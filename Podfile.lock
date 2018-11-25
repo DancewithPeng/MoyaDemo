@@ -1,26 +1,31 @@
 PODS:
   - Alamofire (4.7.3)
-  - Moya (12.0.1):
-    - Moya/Core (= 12.0.1)
   - Moya/Core (12.0.1):
     - Alamofire (~> 4.1)
+    - Result (~> 4.0)
+  - Moya/ReactiveSwift (12.0.1):
+    - Moya/Core
+    - ReactiveSwift (~> 4.0)
+  - ReactiveSwift (4.0.0):
     - Result (~> 4.0)
   - Result (4.0.0)
 
 DEPENDENCIES:
-  - Moya
+  - Moya/ReactiveSwift
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - Alamofire
     - Moya
+    - ReactiveSwift
     - Result
 
 SPEC CHECKSUMS:
   Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
   Moya: cf730b3cd9e005401ef37a85143aa141a12fd38f
+  ReactiveSwift: a2bb9ace428a109e9c0209615645d9d286c8c433
   Result: 7645bb3f50c2ce726dd0ff2fa7b6f42bbe6c3713
 
-PODFILE CHECKSUM: 981e15d5b55742724069f0ab2c0862808bf082bf
+PODFILE CHECKSUM: 72d1d2a9eaefcb88005f7e5bb302a89e3e599913
 
 COCOAPODS: 1.5.3

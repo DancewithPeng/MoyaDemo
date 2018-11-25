@@ -20,7 +20,7 @@ enum MyService {
 extension MyService: TargetType {
 
     var baseURL: URL {
-        return URL(string: "https://www.baidu.com:1234/")!
+        return URL(string: "https://www.baidu.com")!
     }
     
     /// The path to be appended to `baseURL` to form the full `URL`.
